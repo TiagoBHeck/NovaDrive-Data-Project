@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: sources
+    database: NOVADRIVETH
+    schema: RAW
+    tables:
+      - name: CIDADES
+      - name: CLIENTES
+      - name: CONCESSIONARIAS
+      - name: ESTADOS
+      - name: VEICULOS
+      - name: VENDAS
+      - name: VENDEDORES
+      
