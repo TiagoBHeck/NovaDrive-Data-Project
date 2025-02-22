@@ -6,7 +6,7 @@
 
 #### The project basically consists of two stages: the first is the data engineering layer and the second is the data analysis layer. In the first layer, data is collected from a postgres database of a fictitious car dealership and is stored in a raw layer in the snowflake database using Apache Airflow as the data ingestion mechanism. DBT is then used to process the data for the staging and dw layers in Snowflake. In the second layer, an analytics view is created also using DBT with specific objectives for a data analysis project developed in Power BI. The goal is to present an end-to-end solution using some of the main modern data engineering and analysis tools.
 &nbsp;
-![alt text](images/diagram.jpeg "project diagram")
+![alt text](Images/diagram.jpeg "project diagram")
 &nbsp;
 
 ## Data engineering layer
