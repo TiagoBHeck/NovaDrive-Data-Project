@@ -1,0 +1,56 @@
+[0m15:37:46.970871 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022CFC00CB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022CFC00C550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022CFC00C110>]}
+
+
+============================== 15:37:46.983647 | 9b64c3b8-22ac-48b9-afc4-327e15ed49b3 ==============================
+[0m15:37:46.983647 [info ] [MainThread]: Running with dbt=1.8.7
+[0m15:37:46.984751 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\tiago\\.dbt', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt ', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m15:37:46.987749 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path c:\Users\tiago\OneDrive\Área de Trabalho\Documentos\Cursos\NovaDrive\files\DBT layer\dbt_packages\dbt-utils-1.1.1\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:37:46.995023 [debug] [MainThread]: Command `cli deps` failed at 15:37:46.995023 after 1.66 seconds
+[0m15:37:46.999111 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022CFC000790>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022CFC0565D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022CFC056AD0>]}
+[0m15:37:47.005308 [debug] [MainThread]: Flushing usage events
+[0m15:37:47.171167 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027562B76750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027562B77290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027562B2D090>]}
+
+
+============================== 15:37:47.180869 | 6c452fd9-91bd-4543-9e3d-266f33c10845 ==============================
+[0m15:37:47.180869 [info ] [MainThread]: Running with dbt=1.8.7
+[0m15:37:47.182374 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\tiago\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt ', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:37:47.185024 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path c:\Users\tiago\OneDrive\Área de Trabalho\Documentos\Cursos\NovaDrive\files\DBT layer\dbt_packages\dbt-utils-1.1.1\integration_tests\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:37:47.188026 [debug] [MainThread]: Command `cli deps` failed at 15:37:47.187022 after 1.30 seconds
+[0m15:37:47.189075 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027562B77C90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027562B209D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002755C60C050>]}
+[0m15:37:47.190073 [debug] [MainThread]: Flushing usage events
+[0m15:37:49.625675 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001975E606ED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001975E6059D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001975E5BC710>]}
+
+
+============================== 15:37:49.637208 | 32a633bc-66ab-42f4-b811-54b67dfac095 ==============================
+[0m15:37:49.637208 [info ] [MainThread]: Running with dbt=1.8.7
+[0m15:37:49.638498 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\tiago\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt ', 'send_anonymous_usage_stats': 'True'}
+[0m15:37:49.639496 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path c:\Users\tiago\OneDrive\Área de Trabalho\Documentos\Cursos\NovaDrive\files\DBT layer\dbt_packages\dbt-utils-1.1.1\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:37:49.644038 [debug] [MainThread]: Command `cli deps` failed at 15:37:49.644038 after 0.65 seconds
+[0m15:37:49.646036 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001975E5C4350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001975E5B0990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000197580FC1D0>]}
+[0m15:37:49.648107 [debug] [MainThread]: Flushing usage events
+[0m15:37:50.658668 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002814EA8D6D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002814EA8CDD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002814EA8CBD0>]}
+
+
+============================== 15:37:50.671635 | bb488559-be5a-408b-b9b0-849be69baabb ==============================
+[0m15:37:50.671635 [info ] [MainThread]: Running with dbt=1.8.7
+[0m15:37:50.674552 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\tiago\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt ', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:37:50.675558 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path c:\Users\tiago\OneDrive\Área de Trabalho\Documentos\Cursos\NovaDrive\files\DBT layer\dbt_packages\dbt-utils-1.1.1\integration_tests\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:37:50.680615 [debug] [MainThread]: Command `cli deps` failed at 15:37:50.680211 after 0.36 seconds
+[0m15:37:50.682615 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002814E855350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002814EA80A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002814EA77790>]}
+[0m15:37:50.685620 [debug] [MainThread]: Flushing usage events

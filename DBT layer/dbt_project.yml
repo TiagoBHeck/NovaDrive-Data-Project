@@ -36,8 +36,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 
 models:
-  NovaDrive_analytics_layer:
-    # Applies to all files under models/example/
+  NovaDrive_analytics_layer:   
     staging:
       +materialized: table
       +schema: STAGING

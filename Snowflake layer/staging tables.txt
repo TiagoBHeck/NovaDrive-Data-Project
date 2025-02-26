@@ -1,5 +1,5 @@
 create database NOVADRIVETH;
-create schema STG;
+create schema RAW;
  
 CREATE WAREHOUSE DEFAULT_WH;
  
