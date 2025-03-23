@@ -282,4 +282,12 @@ left join clientes CE on (VE.sk_cliente = CE.sk_cliente)
 
 ### Power BI Dashboard
 
-#### Work in progress
+#### The final part of the project consists of a dashboard with analyses of sales fluctuations based on models sold from selected regions and sales dates. The dashboard is created using Power BI and features good descriptive data analysis practices.
+
+&nbsp;
+![alt text](PBI%20layer/dashboard.gif "Dashboard")
+&nbsp;
+
+## Author
+- Tiago Bratz Heck
+##### Access my [LinkedIn](https://www.linkedin.com/in/tiago-analista-de-dados/) profile.
